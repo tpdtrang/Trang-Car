@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+header{
+    background-color:#FFD200 ;
+}
+            /* logo-menu */
+.logo-menu{
+    padding-top: 35px;
+}
+.logo, .menu-main{
+    width: 50%;
+    display: inline-block;
+    float: left;
+
+}
+.logo-menu h1{
+    font-size: 24px;
+    color: #fff;
+}
+.logo-menu li{
+    display: inline-block;
+}
+.menu-main ul{
+    text-align: right;
+}
+.menu-main li{
+    padding: 5px;
+}
+.menu-main a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+}
+.menu-main button{
+    padding: 6px 10px;
+    background-color: #deff06;
+    font-size: 13px;
+    border: none;
+    color: #000;
+}
+
+        /* search-car */
+.search-car{
+    text-align: center;
+    padding: 70px 0 70px 0;
+}
+.search-car h2{
+    font-size: 54px;
+    color: #fff;
+    line-height: 80px;
+}
+.search-car span{
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+    
+}
+input[type="text"] {
+    margin-top: 20px;
+    padding: 10px;
+
+}
+.search-car button{
+    padding: 11px;
+    background-color: #deff06;
+    color: #000;
+    border: none;
+}
+.search-postcode{
+    font-size: 0;
+    line-height: 20px;
+}
+        /* header */
+.logo-content{
+    text-align: center;
+    margin-top: 200px;
+    line-height: 30px;
+}
+.logo-content h2{
+    font-size: 30px;
+    font-family: fantasy;
+}
+.logo-content span{
+    font-size: 20px;    
+    color: #999;
+}
+.img-car{
+    width: 240px;
+	height: 148px;
+	border: 1px solid #ccc;
+	padding: 10px;
+	margin-top: 20px;
+}
+.car-social{
+    margin-left: 30px;
+}
+.car-social li{
+    display: inline-block;
+    width: 24.5%;
+}
+.car-social a{
+    text-decoration: none;
+}
+.car-social h4{
+    text-align: center;
+   color: #000;
+   font-size: 24px;
+   margin-top: 10px;
+}
+.img-car{
+    background-color: #eaeaea;
+}
+.car-social button{
+    text-align: center;
+}
+.btn-search{
+    text-align: center;
+    margin-top: 40px;
+    
+    
+}
+.btn-search button{
+    padding: 12px;
+    background-color: #fcad06;
+    border: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #fff;
+}
+
+.logo-content-social{
+    text-align: center;
+    margin-top: 100px;
+    line-height: 30px;
+}
+.logo-content-social h2{
+    font-size: 30px;
+    font-family: fantasy;
+    text-transform: capitalize;
+}
+.logo-content-social span{
+    font-size: 20px;    
+    color: #999;
+}
+
+.buycar-content li{
+    width: 33%;
+    display: inline-block;
+}
+.buycar-content {
+    margin-top: 30px;
+}
+.buycar-content a{
+    text-decoration: none;
+    
+}
+.buycar-content h4{
+    text-align: center;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 24px;
+    position: relative;
+    top: -40px;
+}
+.btn-buycar {
+    text-align: center;
+    padding: 20px 0;
+}
+.btn-buycar button{
+    padding: 12px;
+    background-color:#fcad06;
+    border: none;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 15px; 
+}
+
+            /* footer */
+footer{
+    background: #fcad06;
+
+}
+.footer-social{
+    text-align: center;
+    /* background: #fcad06; */
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.footer-social h2{
+    font-size: 40px;
+    color: #fff;
+    text-transform: capitalize;
+    line-height: 60px;
+
+}
+.footer-social p{
+    font-size: 20px;
+    color: #fff;
+}
+
+.footer-email {
+    font-size: 0;
+    
+}
+.footer-email  button{
+    padding: 11px;
+    background-color: #FFD200;
+    border: none;
+    text-transform: capitalize;
+}
+
+.footer-email input[type="text"]{
+    padding: 10px 50px;
+}
+
+.footer-dream {
+    
+    /* padding: 20px 0; */
+    line-height: 50px;
+    background-color: #342c2c;
+}
+
+.footer-logo, .footer-car{
+    width: 50%;
+    display: inline-block;
+    float: left;
+
+}
+.footer-car{
+    text-align: right;
+}
+.footer-car li{
+    display: inline-block;
+}
+.footer-car  a{
+    text-decoration: none;
+    padding: 10px;
+    color: #000;
+    font-size: 16px;
+}
